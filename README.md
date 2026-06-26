@@ -36,6 +36,7 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 ## Certifications
 
 - 🛡️ **Fortinet NSE 7 — Enterprise Firewall, 7.6 Administrator** — [verify on Credly](https://www.credly.com/badges/e05c5dac-0b35-4c0c-86ab-f686a7f9a02e/linked_in_profile)
+- ☁️ **AWS Certified Cloud Practitioner** — [verify on Credly](https://www.credly.com/badges/0c2037ca-8781-428c-8499-b1e4c5fd1e36/linked_in_profile)
 
 ## Background
 
