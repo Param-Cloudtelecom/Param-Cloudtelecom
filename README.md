@@ -2,6 +2,12 @@
 
 **VoIP / Telecom Systems Engineer** — architecting, securing, and scaling cloud-based telecom platforms.
 
+[![Live Resume](https://img.shields.io/badge/Live%20Resume-param--cloudtelecom.github.io-2dd4bf?style=for-the-badge)](https://param-cloudtelecom.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parambir-singh-3b9a80bb/)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Param-Cloudtelecom&show_icons=true&theme=tokyonight&hide_border=true&count_private=false)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Param-Cloudtelecom&layout=compact&theme=tokyonight&hide_border=true)
+
 I work across the full voice stack: from raw SIP/RTP packets to multi-tenant Cloud PBX
 orchestration. My focus is building telecom systems that are secure, observable, and built
 to survive carrier-grade traffic.
@@ -32,6 +38,12 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 | 🔀 [**kamailio-sbc-router**](https://github.com/Param-Cloudtelecom/kamailio-sbc-router) | A Kamailio-based SIP Session Border Controller: multi-tenant routing, NAT traversal (rtpengine), TLS/SRTP termination, carrier failover via dispatcher module |
 | ☎️ [**freeswitch-cloud-pbx**](https://github.com/Param-Cloudtelecom/freeswitch-cloud-pbx) | Multi-tenant FreeSWITCH dialplan + ESL automation layer with a REST API for call origination and a CDR pipeline into PostgreSQL |
 | 📞 [**pjsip-sip-diagnostics**](https://github.com/Param-Cloudtelecom/pjsip-sip-diagnostics) | A pjsua2-based SIP test/diagnostic client for validating registration, call setup, and RTP quality against an SBC or trunk — built for the same kind of packet-level troubleshooting Wireshark/sngrep covers |
+| 🤖 [**ai-voice-agent**](https://github.com/Param-Cloudtelecom/ai-voice-agent) | Real-time conversational AI agent that auto-answers FreeSWITCH calls — speech-to-text → LLM → text-to-speech streamed live into the call |
+| 👥 [**teams-sip-bridge**](https://github.com/Param-Cloudtelecom/teams-sip-bridge) | Bridges Microsoft Teams Direct Routing to an on-prem SIP/FreeSWITCH Cloud PBX core |
+| 🛡️ [**fortinet-voip-firewall**](https://github.com/Param-Cloudtelecom/fortinet-voip-firewall) | FortiGate config for SIP/RTP — the SIP ALG problem, firewall policy, and voice QoS prioritization |
+| 📊 [**sip-pcap-analyzer**](https://github.com/Param-Cloudtelecom/sip-pcap-analyzer) | Parses SIP pcap captures into a per-call summary table — Call-ID, status, setup time, duration |
+
+See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
 ## Certifications
 
