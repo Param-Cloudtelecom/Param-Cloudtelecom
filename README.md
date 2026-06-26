@@ -33,6 +33,10 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 | ☎️ [**freeswitch-cloud-pbx**](https://github.com/Param-Cloudtelecom/freeswitch-cloud-pbx) | Multi-tenant FreeSWITCH dialplan + ESL automation layer with a REST API for call origination and a CDR pipeline into PostgreSQL |
 | 📞 [**pjsip-sip-diagnostics**](https://github.com/Param-Cloudtelecom/pjsip-sip-diagnostics) | A pjsua2-based SIP test/diagnostic client for validating registration, call setup, and RTP quality against an SBC or trunk — built for the same kind of packet-level troubleshooting Wireshark/sngrep covers |
 
+## Certifications
+
+- 🛡️ **Fortinet NSE 7 — Enterprise Firewall, 7.6 Administrator** — [verify on Credly](https://www.credly.com/badges/e05c5dac-0b35-4c0c-86ab-f686a7f9a02e/linked_in_profile)
+
 ## Background
 
 - **VoIP Engineer / Telecommunications Technician** — Cloud telecom & UCaaS services
