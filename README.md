@@ -29,9 +29,9 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 
 | Project | What it shows |
 |---|---|
-| 🔀 [**kamailio-sbc-router**](https://github.com/Param-voip/kamailio-sbc-router) | A Kamailio-based SIP Session Border Controller: multi-tenant routing, NAT traversal (rtpengine), TLS/SRTP termination, carrier failover via dispatcher module |
-| ☎️ [**freeswitch-cloud-pbx**](https://github.com/Param-voip/freeswitch-cloud-pbx) | Multi-tenant FreeSWITCH dialplan + ESL automation layer with a REST API for call origination and a CDR pipeline into PostgreSQL |
-| 📞 [**pjsip-sip-diagnostics**](https://github.com/Param-voip/pjsip-sip-diagnostics) | A pjsua2-based SIP test/diagnostic client for validating registration, call setup, and RTP quality against an SBC or trunk — built for the same kind of packet-level troubleshooting Wireshark/sngrep covers |
+| 🔀 [**kamailio-sbc-router**](https://github.com/Param-Cloudtelecom/kamailio-sbc-router) | A Kamailio-based SIP Session Border Controller: multi-tenant routing, NAT traversal (rtpengine), TLS/SRTP termination, carrier failover via dispatcher module |
+| ☎️ [**freeswitch-cloud-pbx**](https://github.com/Param-Cloudtelecom/freeswitch-cloud-pbx) | Multi-tenant FreeSWITCH dialplan + ESL automation layer with a REST API for call origination and a CDR pipeline into PostgreSQL |
+| 📞 [**pjsip-sip-diagnostics**](https://github.com/Param-Cloudtelecom/pjsip-sip-diagnostics) | A pjsua2-based SIP test/diagnostic client for validating registration, call setup, and RTP quality against an SBC or trunk — built for the same kind of packet-level troubleshooting Wireshark/sngrep covers |
 
 ## Background
 
