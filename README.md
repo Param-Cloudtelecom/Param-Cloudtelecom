@@ -50,6 +50,10 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 | 🧰 [**linux-voip-ops-toolkit**](https://github.com/Param-Cloudtelecom/linux-voip-ops-toolkit) | Trunk health checks, rotating SIP packet capture, system health reports, automated CDR backups |
 | 📟 [**yealink-remote-phonebook**](https://github.com/Param-Cloudtelecom/yealink-remote-phonebook) | Live, server-generated company directory for Yealink desk phones via Remote Phone Book |
 | 📖 [**voip-troubleshooting-playbook**](https://github.com/Param-Cloudtelecom/voip-troubleshooting-playbook) | A structured runbook for diagnosing one-way audio, jitter, registration failures, and dropped calls |
+| 🔓 [**voip-phone-unlock-guide**](https://github.com/Param-Cloudtelecom/voip-phone-unlock-guide) | Vendor-lock removal guide for repurposing owned/decommissioned desk phones across PBX platforms |
+| 📢 [**multicast-paging-system**](https://github.com/Param-Cloudtelecom/multicast-paging-system) | SIP multicast overhead paging across Yealink, Snom, Grandstream, and Cisco desk phones |
+| 🅿️ [**voip-call-parking-announce**](https://github.com/Param-Cloudtelecom/voip-call-parking-announce) | FreeSWITCH call parking with automatic spoken slot announcement over overhead paging |
+| ⚙️ [**voip-phone-provisioning-guides**](https://github.com/Param-Cloudtelecom/voip-phone-provisioning-guides) | Auto-provisioning guides for Yealink, Cisco, Grandstream, Avaya, and Snom |
 
 See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
@@ -76,6 +80,8 @@ See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 `sngrep` `Homer (HEP)` `Docker` `Linux` `PostgreSQL` `C` `Python` `REST APIs` `Cloudflare`
 `rtpengine` `KAZOO / Crossbar API` `AWS (Lambda, API Gateway, DynamoDB)` `FortiGate / FortiOS`
 `Zero Trust (Cloudflare Access)` `Bash` `Git` `Nginx` `DNS`
+`SIP Multicast Paging` `Auto-Provisioning (Yealink/Cisco/Grandstream/Avaya/Snom)`
+`CDR / Billing Pipelines` `sngrep` `TCP/IP` `Windows/Linux Interop`
 
 ---
 
