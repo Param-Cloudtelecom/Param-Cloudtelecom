@@ -42,6 +42,14 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 | 👥 [**teams-sip-bridge**](https://github.com/Param-Cloudtelecom/teams-sip-bridge) | Bridges Microsoft Teams Direct Routing to an on-prem SIP/FreeSWITCH Cloud PBX core |
 | 🛡️ [**fortinet-voip-firewall**](https://github.com/Param-Cloudtelecom/fortinet-voip-firewall) | FortiGate config for SIP/RTP — the SIP ALG problem, firewall policy, and voice QoS prioritization |
 | 📊 [**sip-pcap-analyzer**](https://github.com/Param-Cloudtelecom/sip-pcap-analyzer) | Parses SIP pcap captures into a per-call summary table — Call-ID, status, setup time, duration |
+| 🐳 [**telecom-stack-docker**](https://github.com/Param-Cloudtelecom/telecom-stack-docker) | Containerized telecom stack: Kamailio + FreeSWITCH + PostgreSQL + Homer (HEP) monitoring, spun up with one compose file |
+| 🚨 [**ghost-call-defense**](https://github.com/Param-Cloudtelecom/ghost-call-defense) | Detection and mitigation for nuisance/ghost SIP calls and scanning traffic at the SBC layer |
+| 🔐 [**cloudflare-tunnel-voip-access**](https://github.com/Param-Cloudtelecom/cloudflare-tunnel-voip-access) | Secure Cloud PBX admin access via named Cloudflare Tunnel + Access (Zero Trust) — no exposed admin ports |
+| ☁️ [**aws-mobile-call-api**](https://github.com/Param-Cloudtelecom/aws-mobile-call-api) | Serverless API Gateway + Lambda + DynamoDB backend for a mobile Cloud PBX app |
+| 🐍 [**kazoo-crossbar-client**](https://github.com/Param-Cloudtelecom/kazoo-crossbar-client) | Python client for 2600Hz's KAZOO platform Crossbar REST API |
+| 🧰 [**linux-voip-ops-toolkit**](https://github.com/Param-Cloudtelecom/linux-voip-ops-toolkit) | Trunk health checks, rotating SIP packet capture, system health reports, automated CDR backups |
+| 📟 [**yealink-remote-phonebook**](https://github.com/Param-Cloudtelecom/yealink-remote-phonebook) | Live, server-generated company directory for Yealink desk phones via Remote Phone Book |
+| 📖 [**voip-troubleshooting-playbook**](https://github.com/Param-Cloudtelecom/voip-troubleshooting-playbook) | A structured runbook for diagnosing one-way audio, jitter, registration failures, and dropped calls |
 
 See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
@@ -66,6 +74,8 @@ See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
 `FreeSWITCH` `Asterisk` `Kamailio` `pjsip` `SIP/RTP` `TLS/SRTP` `Wireshark` `tshark`
 `sngrep` `Homer (HEP)` `Docker` `Linux` `PostgreSQL` `C` `Python` `REST APIs` `Cloudflare`
+`rtpengine` `KAZOO / Crossbar API` `AWS (Lambda, API Gateway, DynamoDB)` `FortiGate / FortiOS`
+`Zero Trust (Cloudflare Access)` `Bash` `Git` `Nginx` `DNS`
 
 ---
 
