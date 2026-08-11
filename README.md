@@ -30,11 +30,17 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
   infrastructure
 - **Automation & development** — C programming, performance tuning, telecom automation
   tooling, Docker-based service deployment, Linux systems administration
+- **DevOps & IaC** — Terraform modules for AWS (VPC/ECS Fargate/RDS), GitHub Actions
+  CI/CD with OIDC-federated deploys, Kubernetes/Helm with autoscaling and
+  PodDisruptionBudgets
 
 ## Featured projects
 
 | Project | What it shows |
 |---|---|
+| 🌍 [**terraform-aws-infra-modules**](https://github.com/Param-Cloudtelecom/terraform-aws-infra-modules) | Reusable Terraform modules for a VPC + ECS Fargate service + RDS Postgres stack — least-privilege security groups, autoscaling, secrets in Secrets Manager |
+| 🔁 [**cicd-pipeline-aws-ecs**](https://github.com/Param-Cloudtelecom/cicd-pipeline-aws-ecs) | GitHub Actions pipeline: lint → test → build/push to ECR → deploy to ECS Fargate via OIDC, with automatic rollback on a failed deploy |
+| ⎈ [**k8s-helm-service-deploy**](https://github.com/Param-Cloudtelecom/k8s-helm-service-deploy) | Production-shaped Helm chart — Deployment, HPA, PodDisruptionBudget, Ingress, locked-down non-root securityContext |
 | 🔀 [**kamailio-sbc-router**](https://github.com/Param-Cloudtelecom/kamailio-sbc-router) | A Kamailio-based SIP Session Border Controller: multi-tenant routing, NAT traversal (rtpengine), TLS/SRTP termination, carrier failover via dispatcher module |
 | ☎️ [**freeswitch-cloud-pbx**](https://github.com/Param-Cloudtelecom/freeswitch-cloud-pbx) | Multi-tenant FreeSWITCH dialplan + ESL automation layer with a REST API for call origination and a CDR pipeline into PostgreSQL |
 | 📞 [**pjsip-sip-diagnostics**](https://github.com/Param-Cloudtelecom/pjsip-sip-diagnostics) | A pjsua2-based SIP test/diagnostic client for validating registration, call setup, and RTP quality against an SBC or trunk — built for the same kind of packet-level troubleshooting Wireshark/sngrep covers |
@@ -55,7 +61,7 @@ SIP Signaling → SBC / NAT Traversal → TLS/SRTP → FreeSWITCH / Asterisk Cor
 | 🅿️ [**voip-call-parking-announce**](https://github.com/Param-Cloudtelecom/voip-call-parking-announce) | FreeSWITCH call parking with automatic spoken slot announcement over overhead paging |
 | ⚙️ [**voip-phone-provisioning-guides**](https://github.com/Param-Cloudtelecom/voip-phone-provisioning-guides) | Auto-provisioning guides for Yealink, Cisco, Grandstream, Avaya, and Snom |
 
-See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
+See [all 22 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
 ## Certifications
 
@@ -78,10 +84,11 @@ See [all 19 repos →](https://github.com/Param-Cloudtelecom?tab=repositories)
 
 `FreeSWITCH` `Asterisk` `Kamailio` `pjsip` `SIP/RTP` `TLS/SRTP` `Wireshark` `tshark`
 `sngrep` `Homer (HEP)` `Docker` `Linux` `PostgreSQL` `C` `Python` `REST APIs` `Cloudflare`
-`rtpengine` `KAZOO / Crossbar API` `AWS (Lambda, API Gateway, DynamoDB)` `FortiGate / FortiOS`
+`rtpengine` `KAZOO / Crossbar API` `AWS (Lambda, API Gateway, DynamoDB, ECS Fargate, RDS)` `FortiGate / FortiOS`
 `Zero Trust (Cloudflare Access)` `Bash` `Git` `Nginx` `DNS`
 `SIP Multicast Paging` `Auto-Provisioning (Yealink/Cisco/Grandstream/Avaya/Snom)`
 `CDR / Billing Pipelines` `sngrep` `TCP/IP` `Windows/Linux Interop`
+`Terraform` `Kubernetes` `Helm` `GitHub Actions` `OIDC` `HorizontalPodAutoscaler`
 
 ---
 
